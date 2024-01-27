@@ -17,8 +17,7 @@ body {
     margin-top: 64px;
     padding-left: 52px;
     padding-top: 115px;
-    
-    
+
     
 }
 
@@ -105,32 +104,18 @@ body {
     
 }
 
-.copyB {
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 190px;
-    background: rgba(16, 185, 129, 1);
-    color: white;
-    border: none;
-    border-radius: 6px;
-    padding: 10px;
-    cursor: pointer;
-    transition: 0.75ms;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-}
 
-#pw-box-one, #pw-box-two {
-    color: rgba(74, 223, 134, 1);
-    margin-top: 10px;
-    
-}
 
 #new-pw-one, #new-pw-two {
     color: rgba(74, 223, 134, 1);
     text-align: center;
 }
+
+#new-pw-one:focus, #new-pw-two:focus {
+    border: none;
+    outline: none;
+}
+
 
 #click-copy {
     margin-top: 20px;
