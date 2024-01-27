@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background: rgba(28, 28, 28, 1);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: Inter, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+    
+}
+
+#password-generator-container {
+    background: rgba(31, 41, 55, 1);
+    width: 550px;
+    height: 550px;
+    margin-top: 64px;
+    padding-left: 52px;
+    padding-top: 115px;
+    
+    
+    
+}
+
+#PW-gen-contents {
+    border-bottom: 4px solid rgba(47, 62, 83, 1);
+    width: 446px;
+    margin-top: 40px;
+}
+
+.title-white {
+    color: white;
+    margin-bottom: 8px;
+    transition: 0.75ms;
+}
+
+
+#title-green {
+    color: rgba(74, 223, 134, 1);
+    margin-bottom: 0;
+    transition: 0.75ms;
+}
+
+
+
+#tag-line {
+    margin-top: 0;
+    color: rgba(213, 212, 216, 1);
+}
+
+#generate-PW-button {
+    margin-top: 50px;
+    width: 190px;
+    background: rgba(16, 185, 129, 1);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: 0.75ms;
+    
+}
+
+#clear-PW-button {
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 190px;
+    background: rgba(16, 185, 129, 1);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.75ms;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#clear-PW-button:hover {
+    background: orangered;
+}
+
+#generate-PW-button:hover {
+    background: green;
+}
+
+#generate-PW-button:active {
+    border: none;
+}
+
+.password-box {
+    background-color: rgba(39, 53, 73, 1);
+    width: 211px;
+    height: 40px;
+    border-radius: 6px;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.copyB {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 190px;
+    background: rgba(16, 185, 129, 1);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.75ms;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#pw-box-one, #pw-box-two {
+    color: rgba(74, 223, 134, 1);
+    margin-top: 10px;
+    
+}
+
+#new-pw-one, #new-pw-two {
+    color: rgba(74, 223, 134, 1);
+    text-align: center;
+}
+
+#click-copy {
+    margin-top: 20px;
+    color: white;
+}
+
