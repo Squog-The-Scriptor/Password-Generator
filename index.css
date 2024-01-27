@@ -113,12 +113,10 @@ body {
 
 #new-pw-one:focus, #new-pw-two:focus {
     border: none;
-    outline: none;
+    user-select: none;
+    
 }
 
 
-#click-copy {
-    margin-top: 20px;
-    color: white;
-}
+
 
