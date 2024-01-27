@@ -40,11 +40,21 @@ function genPasswordTwo() {
     
  }
  
- function copyPassword() {
-    let copyText = document.getElementById("new-pw-one")
-    copyText.select()
+ 
+ function copyPasswordOne() {
+    let copyTextOne = document.getElementById("new-pw-one")
+    copyTextOne.select()
     document.execCommand("copy")
-    alert("Password copied to clipboard!") 
+    alert("Password copied to clipboard!")
+    window.getSelection().removeAllRanges();
+ }
+ 
+  function copyPasswordTwo() {
+    let copyTextTwo = document.getElementById("new-pw-two")
+    copyTextTwo.select()
+    document.execCommand("copy")
+    alert("Password copied to clipboard!")
+    window.getSelection().removeAllRanges(); 
  }
 
 function darkMode() {
